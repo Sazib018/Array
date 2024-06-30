@@ -86,6 +86,38 @@ else if (johnScore >= 40){johnGrade ="D"}
 }
 console.log("john grade:", johnGrade);
 
+//task-3
+
+//1
+
+var number1 = 13;
+var number2 = 79;
+var number3 = 45;
+
+var bigNumber;
+
+if (number1 >= number2 && number1 >= number3) {bigNumber = number1;}
+else if (number2 >= number1 && number2 >= number3) {bigNumber = number2;}
+else{
+  bigNumber =3;
+}
+
+console.log(bigNumber);
+
+//2
+
+var slides1 =9;
+var slides2 =8;
+var slides3 =9;
+
+if (slides1 == slides2 || slides1 == slides3 || slides2 == slides3) {
+  console.log('The triangle is Isosceles.');
+}
+else{
+  console.log('The triangle is not Isosceles.');
+}
+
+
 
 
 
